@@ -33,6 +33,8 @@ const isPrime = num => {
   }
   return num !== 1;
 };
+const myPrimeArray = newArray.filter(element => isPrime(element));
+console.log(myPrimeArray);
 --------------------------------------------------------------
 5)Return all the palindromes in an array
 
@@ -78,5 +80,3 @@ console.log(findPalindrome(arr));
 
 
 
-const myPrimeArray = newArray.filter(element => isPrime(element));
-console.log(myPrimeArray);
