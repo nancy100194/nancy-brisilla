@@ -1,0 +1,285 @@
+1)Find the culprit and invoke the alert
+
+index.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+
+script,js
+alert(" I'm invoked!")
+..........................................................................................
+2)Find culprit
+
+index.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert( "I’m JavaScript!")
+ </script>
+ Whats the error in this ?
+</body>
+</html>
+......................................................................................
+3)Fix the below to alert Guvi geek
+
+index.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+
+script.js
+let admin=9, fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+admin = fname+" "+lname;
+alert( admin );
+...........................................................................................
+4)Fix the below to alert hello Guvi geek
+
+index.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+script.js
+let fname=10.5; 
+fname = "Guvi";
+lname = "geek";
+let name = fname+" "+lname;
+alert( "hello "+ name );
+........................................................................................................
+5)Fix the below to alert sum of two numbers
+
+index.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+script.js
+let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(+a + +b);
+.............................................................................................................
+6)How to get the correct score in console.
+
+index.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+
+script.js
+let value = prompt('How many runs you scored in this ball');
+if (value ==4) {
+    console.log("You hit a Four");
+} 
+else if (value ==6) {
+    console.log("You hit a Six");
+} 
+else {
+    console.log("I couldn't figure out");
+}
+.............................................................................................................................
+7)Fix the code to welcome the Employee
+
+index.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+script.js
+let login = 'Employee';
+let message = (login == 'Employee') ? 'welcome':
+  (login == 'Director') ? 'Greetings' :
+  (login == 'others') ? 'No login' :
+  '';
+console.log(message);
+............................................................................................................................
+8)Fix the code to welcome the boss
+
+index.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+script.js
+let message;
+if (null || 2 ||undefined )
+{
+  message = "welcome boss";
+}
+else
+{
+  message = "Go away";
+}
+  console.log(message);
+............................................................................................................................................
+9)Fix the code to welcome the boss
+
+index.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+script.js
+let message;
+let lock = message;
+//Dont change any code below this 
+if (null || lock || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+  console.log(message);
+.............................................................................................................................
+10)Fix the code to welcome the boss
+
+index.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+script.js
+let message;
+let lock = message;
+//Dont change any code below this
+if (lock && " " || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+console.log(message);
+......................................................................................................................
+11)Change the code to print
+3
+2
+1
+
+index.html
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+script.js
+let i =3;
+while (i) {
+  console.log( i--);
+}
+...................................................................................................................
+12)Change the code to print 1 to 10 in 4 lines
+
+index.html
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+script.js
+let num=10
+for(i=0;i<=num;i++)
+console.log(i)
+.....................................................................................................................
+13)Change the code to print all the gifts
+index.html
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+
+script.js
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < gifts.length; i++) {
+  console.log("Wrapped"+" "+gifts[i]+ " "+"and added a bow!");
+}
+.................................................................................................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
